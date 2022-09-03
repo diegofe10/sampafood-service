@@ -14,6 +14,7 @@ class RestauranteController {
         }
     }
 
+    // GET /restaurantes/:id
     async findById(req, res, id) {
         try {
             console.log(id);
