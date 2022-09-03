@@ -10,6 +10,11 @@ const routes = [
         method: 'GET',
         path: '/v1/restaurantes',
         handler: restauranteController.findAll.bind(restauranteController)
+    },
+    {
+        method: 'GET',
+        path: /v1\/restaurantes\/([0-9]+)/,
+        handler: restauranteController.findById.bind(restauranteController)
     }
 ];
 

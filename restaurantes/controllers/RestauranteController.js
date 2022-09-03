@@ -5,11 +5,22 @@ class RestauranteController {
     // GET /restaurantes
     async findAll(req, res) {
         try {
-            const resturantes = await Restaurante.getAll();
+            const restaurantes = await Restaurante.getAll();
 
-            return helpers.success(res, resturantes);
+            return helpers.success(res, restaurantes);
         } 
         catch (error) {
+            return helpers.error(res, error);
+        }
+    }
+
+    async findById(req, res, id) {
+        try {
+            console.log(id);
+            const restaurante = await Restaurante.getById(id);
+
+            return helpers.success(res, restaurante);
+        } catch (error) {
             return helpers.error(res, error);
         }
     }
