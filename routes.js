@@ -8,7 +8,7 @@ const restauranteController = require('./restaurantes/controllers/RestauranteCon
 const routes = [
     {
         method: 'GET',
-        path: '/restaurantes',
+        path: '/v1/restaurantes',
         handler: restauranteController.findAll.bind(restauranteController)
     }
 ];
