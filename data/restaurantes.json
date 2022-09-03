@@ -1,0 +1,32 @@
+[
+    {
+      "nome": "Farabbud Moema",
+      "tipo": "Turca, Árabe, Libanesa",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 4.5,
+      "avaliacoes": 449,
+      "endereco": {
+        "rua": "Alameda dos Anapurus, 1253 Moema",
+        "cidade:": "São Paulo",
+        "cep": "04087-003",
+        "localReferencia": "2,4 km do Parque Ibirapuera"
+      },
+      "contato": "+55 11 5000-7840"
+    },
+    {
+        "nome": "Soggiorno",
+        "tipo": "Italiana",
+        "refeicoes": "Almoço, Jantar",
+        "selo": "APROVADO",
+        "nota": 5,
+        "avaliacoes": 288,
+        "endereco": {
+          "rua": "Rua Cerro Corá, 1841 Alto da Lapa,",
+          "cidade:": "São Paulo",
+          "cep": "05061-350",
+          "localReferencia": "3,3 km do Instituto Butantan"
+        },
+        "contato": "+55 11 8258-1629"
+      }
+  ]
