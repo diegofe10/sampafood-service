@@ -11,7 +11,6 @@ class Restaurante {
     static getById(id) {
         return new Promise(async function(resolve, reject) {
             const idSalvo = await restaurantes.findIndex((elemento) => {
-                console.log(elemento.id.toString() == id);
                 return elemento.id.toString() == id;
             });
 
