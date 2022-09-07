@@ -1,5 +1,5 @@
 const { parse } = require('querystring');
-const helpers = require('./common/helpers');
+const helpers = require('./../common/helpers');
 
 module.exports = async (req, res, routes) => {
     // Find a matching route

@@ -1,4 +1,4 @@
-const helpers = require('./../../common/helpers');
+const helpers = require('../../common/helpers');
 const Restaurante = require('../models/Restaurante');
 
 class RestauranteController {
@@ -17,7 +17,6 @@ class RestauranteController {
     // GET /restaurantes/:id
     async findById(req, res, id) {
         try {
-            console.log(id);
             const restaurante = await Restaurante.getById(id);
 
             return helpers.success(res, restaurante);
@@ -25,8 +24,6 @@ class RestauranteController {
             return helpers.error(res, error);
         }
     }
-
-
 }
 
 module.exports = new RestauranteController();

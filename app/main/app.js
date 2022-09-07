@@ -1,7 +1,7 @@
 const http = require('http');
 
-const routes = require('./routes');
-const router = require('./router');
+const routes = require('../main/routes/routes');
+const router = require('../main/routes/router');
 
 process.on('uncaughtException', function(err) {
     // handle the error safely
