@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app/main/app.js",
-    "dev": "nodemon ./app/main/app.js",
-    "debug": "nodemon --inspect ./app/main/app.js",
+    "start": "node ./app/src/main/app.js",
+    "dev": "nodemon ./app/src/main/app.js",
+    "debug": "nodemon --inspect ./app/src/main/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
