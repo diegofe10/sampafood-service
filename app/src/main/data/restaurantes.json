@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nome": "Farabbud Moema",
+    "tipo": "Turca, Árabe, Libanesa",
+    "refeicoes": "Almoço, Jantar",
+    "selo": "APROVADO",
+    "nota": 4.5,
+    "avaliacoes": 449,
+    "endereco": {
+      "rua": "Alameda dos Anapurus 1253, Moema",
+      "cidade": "São Paulo",
+      "cep": "04087-003",
+      "localReferencia": "2,4 km do Parque Ibirapuera"
+    },
+    "contato": "+55 11 5000-7840"
+  },
+  {
+      "id": 2,
+      "nome": "Soggiorno",
+      "tipo": "Italiana",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 5,
+      "avaliacoes": 288,
+      "endereco": {
+        "rua": "Rua Cerro Corá 1841, Alto da Lapa",
+        "cidade": "São Paulo",
+        "cep": "05061-350",
+        "localReferencia": "3,3 km do Instituto Butantan"
+      },
+      "contato": "+55 11 8258-1629"
+    },
+    {
+      "id": 3,
+      "nome": "Outback Steakhouse",
+      "tipo": "Steakhouse",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 4.5,
+      "avaliacoes": 398,
+      "endereco": {
+        "rua": "Al. Grajaú 61, Barueri",
+        "cidade": "São Paulo",
+        "cep": "06454-050",
+        "localReferencia": "333m do Centro Comercial de Alphaville"
+      },
+      "contato": "+55 11 5833-1284"
+    },
+    {
+      "id": 4,
+      "nome": "Bravo Bistrô",
+      "tipo": "Italiana",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 4.5,
+      "avaliacoes": 1228,
+      "endereco": {
+        "rua": "Rua dos Campineiros 501, São Paulo",
+        "cidade": "São Paulo",
+        "cep": "06454-000",
+        "localReferencia": "3,7 km de Museu Paulista"
+      },
+      "contato": "+55 11 5833-1284"
+    },
+    {
+      "id": 1,
+      "nome": "Arabek Pamplona",
+      "tipo": "Turca, Árabe, Libanesa",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 4,
+      "avaliacoes": 47,
+      "endereco": {
+        "rua": "Rua Pamplona 684, Jardim Paulista",
+        "cidade": "São Paulo",
+        "cep": "01405-001",
+        "localReferencia": "100m da Av Paulista"
+      },
+      "contato": "+55 11 2298-4589"
+    },
+    {
+      "id": 5,
+      "nome": "Pobre Juan",
+      "tipo": "Steakhouse",
+      "refeicoes": "Almoço, Jantar",
+      "selo": "APROVADO",
+      "nota": 4.5,
+      "avaliacoes": 299,
+      "endereco": {
+        "rua": "Al. Rio Negro, 111 Barueri",
+        "cidade": "São Paulo",
+        "cep": "06454-000",
+        "localReferencia": "288m do Centro Comercial de Alphaville"
+      },
+      "contato": "+55 11 9982-1016"
+    }
+]
