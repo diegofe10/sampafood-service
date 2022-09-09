@@ -1,11 +1,11 @@
 module.exports.validationError = (res, error = 'Data provided is not valid') => {
     addHeaders(res);
 
-    res.statusCode = 422;
+    res.statusCode = 400;
 
     res.end(JSON.stringify({
         status: 'fail',
-            error
+        message: error.description
     }, null, 3));
 };
 
