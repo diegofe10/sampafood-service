@@ -18,6 +18,7 @@ function AlreadyExistsError (description) {
   this.description = description
   this.isOperational = true
 }
+
 AlreadyExistsError.prototype = Object.create(Error.prototype)
 AlreadyExistsError.prototype.constructor = AlreadyExistsError
 
