@@ -37,13 +37,12 @@ class RestauranteController {
             return helpers.success(res, novoRestaurante);
         } 
         catch (error) {
-            if (error.name === 'ValidationError') {
+            if (error.name === 'VALIDATION_ERROR') {
                 return helpers.validationError(res, error);
             } else {
                 return helpers.error(res);
             }
         }
-
     }
 }
 

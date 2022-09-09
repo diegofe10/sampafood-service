@@ -1,4 +1,5 @@
 const restaurantes = require('../../data/restaurantes.json');
+const { ValidationError, NotFoundError, AlreadyExistsError } = require('../../common/errors')
 
 class Restaurante {
 
@@ -58,10 +59,10 @@ function tipoValidator(tipo) {
 }
 
 function enderecoValidator(endereco) {
-    const pattern = endereco.cep.substring(5,6);
+    const cepPattern = endereco.cep.substring(5,6);
 
-    if (pattern != '-') {
-        console.log('error');
+    if (cepPattern != '-') {    
+        throw new ValidationError('O campo `cep` está incorreto. Ex: 12345-678');
     }
 }
 

@@ -5,7 +5,7 @@ module.exports.validationError = (res, error = 'Data provided is not valid') => 
 
     res.end(JSON.stringify({
         status: 'fail',
-        message: error.message
+        message: error.description
     }, null, 3));
 };
 
