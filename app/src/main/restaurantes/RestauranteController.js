@@ -43,7 +43,6 @@ class RestauranteController {
                 return helpers.error(res);
             }
         }
-
     }
 }
 

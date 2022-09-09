@@ -32,9 +32,6 @@ function ValidationError (description) {
   
   ValidationError.prototype = Object.create(Error.prototype)
   ValidationError.prototype.constructor = ValidationError
-  
-
-
 
 module.exports = {
   NotFoundError,

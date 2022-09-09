@@ -59,8 +59,6 @@ function tipoValidator(tipo) {
 }
 
 function enderecoValidator(endereco) {
-    const e = new Error();
-
     const cepPattern = endereco.cep.substring(5,6);
 
     if (cepPattern != '-') {    
