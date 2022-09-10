@@ -1,11 +1,13 @@
+require('dotenv').config();
 const helpers = require('../common/helpers');
 const Restaurante = require('./domain/Restaurante');
+const RestauranteService = require('./RestauranteService');
 
 class RestauranteController {
     // GET /restaurantes
-    async findAll(req, res) {
+    async getAll(req, res) {
         try {
-            const restaurantes = await Restaurante.getAll();
+            const restaurantes = await RestauranteService.findAll();
 
             return helpers.success(res, restaurantes);
         } 
@@ -13,7 +15,7 @@ class RestauranteController {
             return helpers.error(res, error);
         }
     }
-
+    
     // GET /restaurantes/:id
     async findById(req, res, id) {
         try {

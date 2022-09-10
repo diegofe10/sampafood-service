@@ -9,7 +9,7 @@ const routes = [
     {
         method: 'GET',
         path: '/v1/restaurantes',
-        handler: restauranteController.findAll.bind(restauranteController)
+        handler: restauranteController.getAll.bind(restauranteController)
     },
     {
         method: 'GET',
