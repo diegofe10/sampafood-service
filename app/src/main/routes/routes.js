@@ -3,23 +3,23 @@
  * 1. If "path" is a string, then we simply match with url
  * 2. If "path is a object, then we assume it is a RegEx and use RegEx matching
  */
-const restauranteController = require('../restaurantes/RestauranteController')
+const restauranteRouter = require('../restaurantes/RestauranteRouter')
 
 const routes = [
     {
         method: 'GET',
         path: '/v1/restaurantes',
-        handler: restauranteController.getAll.bind(restauranteController)
+        handler: restauranteRouter.getAll.bind(restauranteRouter)
     },
     {
         method: 'GET',
         path: /v1\/restaurantes\/([0-9]+)/,
-        handler: restauranteController.findById.bind(restauranteController)
+        handler: restauranteRouter.findById.bind(restauranteRouter)
     },
     {
         method: 'POST',
         path: '/v1/restaurantes',
-        handler: restauranteController.create.bind(restauranteController)
+        handler: restauranteRouter.create.bind(restauranteRouter)
     }
 ];
 
