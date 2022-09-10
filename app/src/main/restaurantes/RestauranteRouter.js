@@ -3,7 +3,7 @@ const helpers = require('../common/helpers');
 const Restaurante = require('./domain/Restaurante');
 const RestauranteService = require('./RestauranteService');
 
-class RestauranteController {
+class RestauranteRouter {
     // GET /restaurantes
     async getAll(req, res) {
         try {
@@ -48,4 +48,4 @@ class RestauranteController {
     }
 }
 
-module.exports = new RestauranteController();
+module.exports = new RestauranteRouter();
