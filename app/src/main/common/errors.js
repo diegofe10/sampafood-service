@@ -31,8 +31,8 @@ function ValidationError (description) {
     this.isOperational = true;
   }
   
-  ValidationError.prototype = Object.create(Error.prototype)
-  ValidationError.prototype.constructor = ValidationError
+ValidationError.prototype = Object.create(Error.prototype)
+ValidationError.prototype.constructor = ValidationError
 
 module.exports = {
   NotFoundError,
