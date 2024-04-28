@@ -1,4 +1,4 @@
-FROM FROM --platform=linux/amd64 node:16-alpine
+FROM --platform=linux/amd64 node:16-alpine
 
 RUN mkdir -p /prod/service/app
 
